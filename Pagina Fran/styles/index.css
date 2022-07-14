@@ -54,3 +54,8 @@ nav ul li {
 .up{
     background-color: blue;
 }
+
+.down {
+    color: white;
+    background-color: black;
+}
