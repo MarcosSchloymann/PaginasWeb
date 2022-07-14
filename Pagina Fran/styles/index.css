@@ -39,6 +39,7 @@ nav {
 }
 
 nav ul {
+    
     list-style: none;
     padding: 0;
     display: flex;
@@ -46,16 +47,29 @@ nav ul {
 }
 
 nav ul li {
+    text-decoration: none;
     margin: 10px;
     flex-grow: 1;
     display: block;
 }
 
-.up{
-    background-color: blue;
+nav ul li a{
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
 }
 
-.down {
-    color: white;
-    background-color: black;
+nav ul li a:hover{
+    color:#263185;
 }
+
+
+.up{
+    background-color: #C4C4C4;
+}
+
