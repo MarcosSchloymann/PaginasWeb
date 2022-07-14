@@ -1,0 +1,52 @@
+body {
+    background-color: #f6f6f6;
+}
+
+.cabecera {
+    width: 1400px;
+    display: flex;
+    flex-direction: row;
+    height: 120px;
+    padding: 0 45px;
+}
+
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+header img {
+    height: 75%;
+    width: auto;
+}
+
+.menu {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav {
+    color: #7A7A7A;
+    text-align: left;
+    font-family: 'Montserrat';
+    font-weight: 100;
+    font-size: 15px;
+    font-weight: 900;
+    justify-content: space-between;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul li {
+    margin: 10px;
+    flex-grow: 1;
+    display: block;
+}
