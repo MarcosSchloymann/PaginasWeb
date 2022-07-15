@@ -2,6 +2,11 @@ body {
     background-color: #f6f6f6;
 }
 
+header {
+    
+
+}
+
 .cabecera {
     width: 1400px;
     display: flex;
@@ -10,7 +15,11 @@ body {
     padding: 0 45px;
 }
 
-.logo{
+.abajo {
+
+}
+
+.logo {
     width: 20%;
     display: flex;
     justify-content: center;
@@ -39,7 +48,7 @@ nav {
 }
 
 nav ul {
-    
+
     list-style: none;
     padding: 0;
     display: flex;
@@ -53,7 +62,7 @@ nav ul li {
     display: block;
 }
 
-nav ul li a{
+nav ul li a {
     color: #000000;
     font-family: 'Montserrat', sans-serif;
     font-size: 15px;
@@ -64,12 +73,24 @@ nav ul li a{
     cursor: pointer;
 }
 
-nav ul li a:hover{
-    color:#263185;
+nav ul li a:hover {
+    color: #263185;
 }
 
 
-.up{
+.up {
+    height: 100px;
     background-color: #C4C4C4;
 }
 
+main{
+    padding: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main h1{
+    text-align: center;
+    font-size: 25px;
+}

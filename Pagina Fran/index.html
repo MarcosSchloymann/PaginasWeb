@@ -29,12 +29,24 @@
         </div>
     </header>
     <main>
+        <form action="">
+            <h1>Número de Pedido</h1>
+            <input type="number">
+            <button>Consulta</button>
+        </form>
 
     </main>
     <footer>
         <div class="up">Pistones Otto</div>
         <div class="down"></div>
     </footer>
+
+    <script>
+        window.addEventListener("scroll", function(){
+            var header=document.querySelector("header");
+            header.classList.toggle("abajo",window.scrollY>0);
+        })
+    </script>
 </body>
 
 </html>
