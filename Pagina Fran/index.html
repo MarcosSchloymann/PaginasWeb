@@ -6,33 +6,46 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pistones Otto</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
     <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="small.css" Media="handheld, screen and (min-width: 230px) and (max-width:800px)">
 </head>
 
 <body>
-    <header class="cabecera">
-        <div class="logo">
-            <img src="img/Logo.png" alt="">
+    <header class="container-fluid">
+        <div class="contenedor contenedor-boton-menu">
+            <button id="btn-menu-barras" class="btn-menu-barras"><i class="fa-solid fa-bars"></i></button>
         </div>
-        <div class="menu">
-            <nav>
-               <ul>
-                   <li><a href=""> HOME</a></li>
-                   <li><a href="">LA EMPRESA</a></li>
-                   <li><a href="">PRODUCTOS</a> </li>
-                   <li><a href="">SERVICIOS</a> </li>
-                   <li><a href="">CLIENTES</a> </li>
-                   <li><a href="">CONTACTO</a> </li>
-                   <li><a href="">SEGUIMIENTO</a> </li>
-               </ul> 
-            </nav>
+        <div id="menu" class="contenedor cabecera">
+            <div class="contenedor logo">
+                <img id="cambio" src="img/Logo.png" alt="">
+            </div>
+            <div class="contenedor menu">
+                <nav>
+                    <ul>
+                        <li><a href=""> HOME</a></li>
+                        <li><a href="">LA EMPRESA</a></li>
+                        <li><a href="">PRODUCTOS</a> </li>
+                        <li><a href="">SERVICIOS</a> </li>
+                        <li><a href="">CLIENTES</a> </li>
+                        <li><a href="">CONTACTO</a> </li>
+                        <li><a href="">SEGUIMIENTO</a> </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="contenedor contenedor-boton-menu">
+            <button id="btn-menu-cerrar" class="btn-menu-cerrar"><i class="fa-solid fa-xmark"></i></button>
         </div>
     </header>
     <main>
         <form action="">
-            <h1>Número de Pedido</h1>
+            <h1>Seguimiento de Pedido</h1>
+            <label for="">Número De Pedido</label>
             <input type="number">
-            <button>Consulta</button>
+            <button class="accion" type="submit" value="enviar">Consulta</button>
         </form>
 
     </main>
@@ -40,13 +53,30 @@
         <div class="up">Pistones Otto</div>
         <div class="down"></div>
     </footer>
+    <script src="https://kit.fontawesome.com/dd5f7f0e36.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
     <script>
-        window.addEventListener("scroll", function(){
-            var header=document.querySelector("header");
-            header.classList.toggle("abajo",window.scrollY>0);
+        window.addEventListener("scroll", function () {
+            var header = document.querySelector("header");
+            header.classList.toggle("abajo", window.scrollY > 10);
         })
+
+        jQuery(document).ready(function () {
+            jQuery(document).scroll(function (event) {
+                var position = jQuery(document).scrollTop();
+                if (position > 10) {
+                    jQuery("#cambio").replaceWith("<img id='cambio' src='img/Transparencia.png' alt=''>");//id, o clase de tu imagen # =id . = class          
+                } else {
+                    jQuery("#cambio").replaceWith("<img id='cambio' src='img/Logo.png' alt=''>");
+                }
+            });
+        });
+
     </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

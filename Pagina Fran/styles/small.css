@@ -1,0 +1,104 @@
+body {
+    background-color: green;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+}
+
+.cabecera {
+    background-color: green;
+    width: 1400px;
+    display: flex;
+    flex-direction: row;
+    height: 120px;
+    padding: 0 45px;
+}
+
+.abajo {
+    background-color: #263185;
+}
+
+.abajo nav ul li a{
+    background-color: green;
+    color: white;
+}
+
+.logo {
+    margin-right: 80px;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+header img {
+    height: 75%;
+    width: auto;
+}
+
+.menu {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav {
+    color: #7A7A7A;
+    text-align: left;
+    font-family: 'Montserrat';
+    font-weight: 100;
+    font-size: 15px;
+    font-weight: 900;
+    justify-content: space-between;
+}
+
+nav ul {
+
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul li {
+    text-decoration: none;
+    margin: 10px;
+    flex-grow: 1;
+    display: block;
+}
+
+nav ul li a {
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+nav ul li a:hover {
+    color: #263185;
+}
+
+
+.up {
+    height: 100px;
+    background-color: #C4C4C4;
+}
+
+main {
+    padding: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main h1 {
+    text-align: center;
+    font-size: 25px;
+}
