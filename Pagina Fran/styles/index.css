@@ -137,3 +137,17 @@ main h1 {
     text-align: center;
     font-size: 25px;
 }
+
+.contenedor-grid{
+position: relative;
+width: 1%;
+}
+
+.grid{
+    background-color: #fff;
+    width: 100%;
+    position: absolute;
+    top: 80px;
+    z-index: 1000;
+    /* display: none; */
+}
