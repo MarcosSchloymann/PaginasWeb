@@ -2,7 +2,6 @@ body {
     background-color: white;
 }
 
-
 header {
     display: flex;
     height: 140px;
@@ -67,8 +66,8 @@ header .contenedor-boton-menu button:hover{
 .logo {
     width: 30%;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items:center;
+    justify-content:left;
 }
 
 header img {
@@ -81,7 +80,7 @@ header img {
     height: 140px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: left;
     /* display: none; */
 }
 
@@ -137,6 +136,7 @@ main {
 main h1 {
     text-align: center;
     font-size: 25px;
+<<<<<<< HEAD
     color: #263185;
 }
 
@@ -159,4 +159,20 @@ main h1 {
     /* display: grid; */
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 1fr;
+=======
+}
+
+.contenedor-grid{
+position: relative;
+width: 1%;
+}
+
+.grid{
+    background-color: #fff;
+    width: 100%;
+    position: absolute;
+    top: 80px;
+    z-index: 1000;
+    /* display: none; */
+>>>>>>> c23e8160b6b6ca6a8f6d75a2cc8572dd8aadd75f
 }
