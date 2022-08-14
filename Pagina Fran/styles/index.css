@@ -21,18 +21,18 @@ header .contenedor .cabecera {
     position: fixed;
 }
 
-header .contenedor-boton-menu{
+header .contenedor-boton-menu {
     width: 20%;
     /* display: flex; */
     display: none;
     justify-content: center;
 }
 
-header .contenedor-boton-menu .btn-menu-cerrar{
+header .contenedor-boton-menu .btn-menu-cerrar {
     display: none;
 }
 
-header .contenedor-boton-menu button{
+header .contenedor-boton-menu button {
     font-size: 20px;
     color: #ffff;
     padding: 10px 20px;
@@ -42,7 +42,7 @@ header .contenedor-boton-menu button{
     background: none;
 }
 
-header .contenedor-boton-menu button:hover{
+header .contenedor-boton-menu button:hover {
     border: 1px solid rgba(255, 255, 255, .5)
 }
 
@@ -66,8 +66,8 @@ header .contenedor-boton-menu button:hover{
 .logo {
     width: 30%;
     display: flex;
-    align-items:center;
-    justify-content:left;
+    align-items: center;
+    justify-content: left;
 }
 
 header img {
@@ -136,20 +136,77 @@ main {
 main h1 {
     text-align: center;
     font-size: 25px;
-<<<<<<< HEAD
     color: #263185;
+    font-weight: 1000;
 }
 
-.contenedor-home{
-    display: flex;
+.contenedor h1{
+    text-shadow: #7A7A7A 2px 2px;
 }
+
+.contenedor p{
+    font-size: 20px;
+    color: rgb(21, 20, 20);
+    font-weight: 1000;
+    text-shadow: #7A7A7A 2px 2px;
+}
+
+.contenedor-home {
+    display: flex;
+    padding: 10px;
+}
+
+.contenedor-fund {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 250px;
+    width: 100%;
+    background-image: url(../img/Mecanizado.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
+.contenedor-fabrica {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 250px;
+    width: 100%;
+    background-image: url(../img/oto.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
+.contenedor-servicios {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 250px;
+    width: 100%;
+    background-image: url(../img/Pistones.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
+.contenedor-rectifi {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 250px;
+    width: 100%;
+    background-image: url(../img/Rectifiacion.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
 /* grid */
 
 /* .contenedor-grid{
     position: relative;
 } */
 
-.grid{
+.grid {
     width: 100%;
     display: none;
     color: #7A7A7A;
@@ -159,20 +216,18 @@ main h1 {
     /* display: grid; */
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 1fr;
-=======
 }
 
-.contenedor-grid{
-position: relative;
-width: 1%;
+.contenedor-grid {
+    position: relative;
+    width: 1%;
 }
 
-.grid{
+.grid {
     background-color: #fff;
     width: 100%;
     position: absolute;
     top: 80px;
     z-index: 1000;
     /* display: none; */
->>>>>>> c23e8160b6b6ca6a8f6d75a2cc8572dd8aadd75f
 }
