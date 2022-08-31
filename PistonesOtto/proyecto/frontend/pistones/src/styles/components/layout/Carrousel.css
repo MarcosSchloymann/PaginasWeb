@@ -1,0 +1,39 @@
+Carrousel{
+    position: relative;
+}
+.boxCarrousel{
+    background:rgb(255, 255, 255, 0.5);
+    /* background-color: rgb(255, 255, 255); */
+    border-radius: 5% 5% 5% 5%;
+    height: auto;
+    width: 400px;
+    padding: 20px;
+}
+.medio{
+    position: absolute;
+    top: -300px;
+    left:-100px;
+}
+h1{
+    color: black;
+    font-family: sans-serif;
+    border-left: 6px solid blue;
+    }
+
+span{
+    color: rgb(75, 73, 73);
+font-family: sans-serif;
+font-size: 30px;
+padding: 20px;}
+
+.arriba{
+    position: absolute;
+    top: -550px;
+    left:600px;
+}
+
+.abajo{
+    position: absolute;
+    top: -400px;
+    left:400px;
+}

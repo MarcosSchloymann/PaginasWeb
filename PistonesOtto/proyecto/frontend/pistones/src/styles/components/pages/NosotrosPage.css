@@ -1,0 +1,19 @@
+.nosotros{
+    margin-top:100px;
+}
+
+.texto-empresa{
+    padding: 30px;
+}
+.textocheck{
+    display: flex;
+    
+    align-items: flex-start;
+}
+
+.fondo-azul{
+    background-color: blue;
+    color: white;
+    padding: 20px;
+}
+

@@ -151,53 +151,31 @@ main h1 {
     text-shadow: #7A7A7A 2px 2px;
 }
 
+
+
 .contenedor-home {
     display: flex;
     padding: 10px;
 }
 
-.contenedor-fund {
+.contenedor-fundido {
     display: flex;
+    align-items: center;
     flex-direction: column;
     justify-content: center;
     height: 250px;
     width: 100%;
-    background-image: url(../img/Mecanizado.jpg);
-    background-position: center center;
-    background-size: cover;
+    margin: auto auto;
+    position: relative;
 }
 
-.contenedor-fabrica {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 250px;
-    width: 100%;
-    background-image: url(../img/oto.jpg);
-    background-position: center center;
-    background-size: cover;
-}
+.contenedor .transparencia{
+    opacity: 0.7;
+    height: 100%;
+} 
 
-.contenedor-servicios {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 250px;
-    width: 100%;
-    background-image: url(../img/Pistones.jpg);
-    background-position: center center;
-    background-size: cover;
-}
-
-.contenedor-rectifi {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 250px;
-    width: 100%;
-    background-image: url(../img/Rectifiacion.jpg);
-    background-position: center center;
-    background-size: cover;
+.contenedor .contenido{
+    position: absolute;
 }
 
 /* grid */
